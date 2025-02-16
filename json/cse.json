@@ -1,0 +1,113 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to Algorithms",
+      "author": "Thomas H. Cormen",
+      "year": 2009,
+      "genre": "Algorithms",
+      "image": "https://i.ibb.co.com/20thh9BG/108986.jpg",
+      "availability": "Available",
+      "quantity": 5,
+      "details": "A comprehensive guide to algorithms, covering sorting, searching, graph algorithms, and dynamic programming."
+    },
+    {
+      "id": 2,
+      "title": "Computer Networking: A Top-Down Approach",
+      "author": "Kurose & Ross",
+      "year": 2020,
+      "genre": "Networking",
+      "image": "https://i.ibb.co.com/84X78R3N/81ew-Un-ANZPL-AC-UF1000-1000-QL80.jpg",
+      "availability": "Borrowed",
+      "quantity": 3,
+      "details": "An in-depth book on computer networking, focusing on application layer protocols, TCP/IP, and network security."
+    },
+    {
+      "id": 3,
+      "title": "Operating System Concepts",
+      "author": "Abraham Silberschatz",
+      "year": 2018,
+      "genre": "Operating Systems",
+      "image": "https://i.ibb.co.com/ZRLzvCBs/1118093755.jpg",
+      "availability": "Available",
+      "quantity": 6,
+      "details": "This book explains OS fundamentals, including process management, scheduling, memory management, and virtualization."
+    },
+    {
+      "id": 4,
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz",
+      "year": 2019,
+      "genre": "Database",
+      "image": "https://i.ibb.co.com/d4PJbyM7/book-63402022-12-05-1670220947.jpg",
+      "availability": "Available",
+      "quantity": 4,
+      "details": "Covers fundamental database concepts, including SQL, NoSQL, indexing, normalization, and transactions."
+    },
+    {
+      "id": 5,
+      "title": "Artificial Intelligence: A Modern Approach",
+      "author": "Stuart Russell & Peter Norvig",
+      "year": 2021,
+      "genre": "AI",
+      "image": "https://i.ibb.co.com/F43ZVhSx/9788129700414.jpg",
+      "availability": "Borrowed",
+      "quantity": 2,
+      "details": "A detailed book on AI concepts, including search algorithms, machine learning, reinforcement learning, and NLP."
+    },
+    {
+      "id": 6,
+      "title": "The C Programming Language",
+      "author": "Brian W. Kernighan & Dennis M. Ritchie",
+      "year": 1988,
+      "genre": "Programming",
+      "image": "https://i.ibb.co.com/Zz10q4m6/cprogramminglang0000kern-2ed-0001.jpg",
+      "availability": "Available",
+      "quantity": 7,
+      "details": "A classic book on C programming covering syntax, pointers, memory management, and data structures."
+    },
+    {
+      "id": 7,
+      "title": "Software Engineering",
+      "author": "Ian Sommerville",
+      "year": 2015,
+      "genre": "Software Engineering",
+      "image": "https://i.ibb.co.com/Ng7Wsf5S/Software-Engineering-Ian-Sommerville-be564-72042.jpg",
+      "availability": "Available",
+      "quantity": 5,
+      "details": "Covers software development methodologies, Agile, testing, project management, and quality assurance."
+    },
+    {
+      "id": 8,
+      "title": "Computer Organization and Design",
+      "author": "David A. Patterson & John L. Hennessy",
+      "year": 2017,
+      "genre": "Computer Architecture",
+      "image": "https://i.ibb.co.com/MxnpVcvL/24a616f9d16c6ae25c23c458c86464bf.jpg",
+      "availability": "Available",
+      "quantity": 3,
+      "details": "Explores computer architecture concepts, including RISC vs CISC, pipeline processing, and memory hierarchy."
+    },
+    {
+      "id": 9,
+      "title": "Cryptography and Network Security",
+      "author": "William Stallings",
+      "year": 2020,
+      "genre": "Security",
+      "image": "https://i.ibb.co.com/bMKg36p5/slide-1.jpg",
+      "availability": "Borrowed",
+      "quantity": 2,
+      "details": "Provides an understanding of cryptography techniques, encryption, hashing, and network security protocols."
+    },
+    {
+      "id": 10,
+      "title": "Computer Graphics: Principles and Practice",
+      "author": "John F. Hughes",
+      "year": 2013,
+      "genre": "Graphics",
+      "image": "https://i.ibb.co.com/FkfJXhCN/md-9789353068967-180820231838767.jpg",
+      "availability": "Available",
+      "quantity": 3,
+      "details": "Covers the fundamentals of computer graphics, including rendering, ray tracing, shading, and OpenGL."
+    }
+  ]
+  
