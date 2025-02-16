@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- tailwind and DaisyUI cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .roboto-font {
+            font-family: "Roboto", serif;
+        }
+    </style>
+
+</head>
+
+<body class="roboto-font">
+    <header>
+        <!-- navbar-->
+        <div class="navbar bg-base-100 w-11/12 mx-auto">
+            <div class="navbar-start">
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Information</a></li>
+                        <li><a>Help</a></li>
+                        <li><a>Librarian</a></li>
+                    </ul>
+                </div>
+                <div class="flex items-center gap-2">
+                    <img class="w-20" src="./Image/logo2.png" alt="">
+                    <h3 class="text-2xl font-bold text-sky-950">Pundra <br>University</h3>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-xl">
+                    <li><a>Home</a></li>
+                    <li><a>Information</a></li>
+                    <li><a>Help</a></li>
+                    <li><a>Librarian</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <button class="btn bg-[#3D8D7A] text-white">Login</button>
+            </div>
+        </div>
+        <!-- CArousel-->
+        <div class="carousel w-full h-[530px]">
+            <!-- slide-1  -->
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="/Image/slide-1.jpg" class="w-full" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slide-2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="/Image/slide-2.jpeg" class="w-full object-cover" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slide-3-->
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="/Image/slide-3.jpeg" class="w-full object-cover" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slide-4-->
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="/Image/slide-4.jpg" class="w-full object-cover" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide5" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slide-5-->
+            <div id="slide5" class="carousel-item relative w-full">
+                <img src="/Image/slide-5.jpg" class="w-full object-cover" />
+                <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
