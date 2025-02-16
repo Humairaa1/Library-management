@@ -1,16 +1,25 @@
-const loadCseBooks=()=>{
-    fetch('json/cse.json')
-    .then(res=>res.json())
-    .then(data=>displayCseBooks(data))
+let isShowAll = false;
+const loadCseBooks = (status) => {
+  fetch('json/cse.json')
+    .then(res => res.json())
+    .then(data => {
+      if (status) {
+        displayCseBooks(data)
+      }
+      else {
+
+        displayCseBooks(data.slice(0, 4))
+      }
+    })
 }
-const displayCseBooks=(books)=>{
-    const cseBooksContainer = document.getElementById("cse-book-container");
-    
-    books.forEach(book => {
-        const {image,title,author,quantity} =book;
-       const div = document.createElement('div');
-       div.innerHTML=
-       `
+const displayCseBooks = (books) => {
+  const cseBooksContainer = document.getElementById("cse-book-container");
+  cseBooksContainer.innerHTML = "";
+  books.forEach(book => {
+    const { image, title, author, quantity } = book;
+    const div = document.createElement('div');
+    div.innerHTML =
+      `
        <div class="card bg-base-100 shadow-xl h-[500px]">
   <figure class="px-10 pt-10">
     <img
@@ -28,8 +37,19 @@ const displayCseBooks=(books)=>{
   </div>
 </div>
        `
-       cseBooksContainer.append(div)
-    });
+    cseBooksContainer.append(div)
+  });
 }
 
-loadCseBooks();
+const showAllBookCse = () => {
+  isShowAll = !isShowAll;
+  loadCseBooks(isShowAll);
+
+  const button = document.getElementById('toggleButton');
+  button.innerText = isShowAll ? "Show Less" : "Show All..."
+}
+// document.addEventListener('DOMContentLoaded',()=>{
+//   loadCseBooks(false)
+// })
+
+loadCseBooks(false);
